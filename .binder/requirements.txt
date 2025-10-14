@@ -1,1 +1,5 @@
 nbgitpuller
+networkx
+mindspore
+openfermionpyscf
+scikit-learn
