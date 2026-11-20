@@ -1,2 +1,0 @@
-pip install https://raw.githubusercontent.com/MindQuantum-HiQ/mq-env/refs/heads/main/whl/mindquantum-0.11.0-cp39-cp39-manylinux_2_27_x86_64.whl
-jupyter server extension enable --py nbgitpuller --sys-prefix

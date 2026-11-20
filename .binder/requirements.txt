@@ -1,5 +1,5 @@
+# MyBinder 在线环境：课程依赖 + VQE 作业所需的量子化学工具
+-r ../requirements.txt
+openfermion==1.8.1
+openfermionpyscf==0.5
 nbgitpuller
-networkx
-mindspore
-openfermionpyscf
-scikit-learn

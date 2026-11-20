@@ -1,0 +1,8 @@
+# 实验所需依赖，版本组合已实测。安装：pip install -r requirements.txt
+mindquantum==0.12.0
+mindspore==2.11.0
+numpy>=1.26,<2        # NumPy 2 与 MindSpore 2.11 不兼容（训练时报错）
+scipy
+networkx
+scikit-learn
+matplotlib
