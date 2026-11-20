@@ -71,7 +71,8 @@ def student_notebook(nb):
 
 
 def dumps(nb):
-    return json.dumps(nb, ensure_ascii=False, indent=1) + "\n"
+    # 与 nbformat 一致地按键排序：无论参考答案最后由谁写入，生成的学生版都相同
+    return json.dumps(nb, ensure_ascii=False, indent=1, sort_keys=True) + "\n"
 
 
 def main(check=False):
