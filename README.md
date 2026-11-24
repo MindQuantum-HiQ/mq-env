@@ -5,6 +5,8 @@
 
 「量子计算软件与编程」课程的配套实验，基于 [MindSpore Quantum](https://www.mindspore.cn/mindquantum) 0.12。每个 Notebook 对应讲义的一个部分，练习带有即时检查，可以在浏览器中一键运行。
 
+仓库有两个地址，内容相同：GitHub [MindQuantum-HiQ/mq-env](https://github.com/MindQuantum-HiQ/mq-env)；AtomGit 国内镜像 [dsdsdshe/mq-env](https://atomgit.com/dsdsdshe/mq-env)。
+
 ## 实验目录
 
 | Notebook | 内容 | 对应讲义 | 时长 |
@@ -28,6 +30,7 @@
 
 ```bash
 git clone https://github.com/MindQuantum-HiQ/mq-env.git
+# 国内网络可改用 AtomGit 镜像：git clone https://atomgit.com/dsdsdshe/mq-env.git
 cd mq-env
 python -m venv .venv
 source .venv/bin/activate                      # Windows：.venv\Scripts\activate
