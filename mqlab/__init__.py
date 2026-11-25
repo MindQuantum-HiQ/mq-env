@@ -12,5 +12,6 @@ os.environ.setdefault("GLOG_v", "3")
 
 from .env import check_env, data_path  # noqa: E402
 from . import check  # noqa: E402
+from .check import mystery_gate  # noqa: E402
 
-__all__ = ["check", "check_env", "data_path"]
+__all__ = ["check", "check_env", "data_path", "mystery_gate"]
